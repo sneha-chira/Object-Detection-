@@ -1,0 +1,17 @@
+# Custom Dataset Configuration for YOLOv8
+
+# Replace this with the absolute path to your dataset if it's not in the same directory
+path: ./dataset  
+
+# Directories containing images (relative to 'path' above)
+train: images/train  # training images
+val: images/val      # validation images
+test: images/test    # testing images (optional)
+
+# Number of classes
+nc: 2
+
+# Class names (update these to match your actual classes)
+names:
+  0: class_1
+  1: class_2
